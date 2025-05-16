@@ -1,0 +1,70 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa; /* Fond clair */
+    color: #333;
+}
+
+/* En-tête */
+header {
+    background-color: #3e80c6; /* Bleu harmonieux */
+    padding: 20px;
+    text-align: center;
+}
+
+header nav a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+/* Contenu principal */
+main {
+    padding: 30px;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Liens de contact */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+ul li a {
+    color: white;
+    background-color: #0056b3;
+    padding: 12px 18px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: #004080;
+}
+
+/* Pied de page */
+footer {
+    background-color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}

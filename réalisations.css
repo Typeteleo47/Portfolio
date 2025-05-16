@@ -1,0 +1,79 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa; 
+    color: #333; 
+}
+
+/* En-tête */
+header {
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    background-color: #82a8b8;
+}
+
+/* Navigation */
+.liens ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+
+.liens a {
+    text-decoration: none;
+    background: #82a8b8;
+    padding: 10px;
+    border-radius: 5px;
+    color: #000;
+}
+
+.liens a:hover {
+    background-color: #6f92a07b;
+}
+
+/* Sections principales */
+.container{
+    width: 800px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background: #404b4f;
+    border-radius: 15px;
+}
+
+.texte {
+    width: 50%;
+    padding: 20px;
+    background: #6f92a07b;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.photo img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 50px;
+}
+
+/* Pied de page */
+footer {
+    background-color: #333;
+    text-align: center;
+    padding: 15px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
