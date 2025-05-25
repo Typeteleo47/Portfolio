@@ -3,77 +3,48 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #fafafa; 
+    background-color: #404b4f; 
     color: #333; 
 }
-
-/* En-tête */
-header {
-    display: flex;
-    height: 50px;
-    justify-content: space-between;
-    align-items: center;
-    padding: 25px;
-    background-color: #82a8b8;
+img{
+    max-width: 500px;
+    max-height: 250px;
 }
-
-/* Navigation */
-.liens ul {
+.header {
+    display: flex;
+    background-color: #82a8b8;
+    padding: 20px;
+    margin: auto;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    background: #82a8b8;
+    color: #000;
+}
+a:hover {
+    background-color: #6f92a07b;
+    color: #333;
+    padding: 10px;
+    border-radius: 52px;
+}
+ul{
     list-style: none;
     display: flex;
     gap: 20px;
-    padding: 0;
-}
-
-.liens a {
-    text-decoration: none;
-    background: #82a8b8;
-    padding: 10px;
-    border-radius: 5px;
-    color: #000;
-}
-
-.liens a:hover {
-    background-color: #6f92a07b;
-}
-
-/* Sections principales */
-.container{
-    width: 800px;
-    margin: auto;
-    display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-    background: #404b4f;
-    border-radius: 15px;
+    padding: auto;
 }
-
-.texte {
-    width: 50%;
-    padding: 20px;
-    background: #6f92a07b;
-    border-radius: 15px;
+.container {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#404b4f ;
+}
+.projet_informatique h3{
+    margin: 20px;
+    padding: 10px;
+    width: 400px;
+    background-color: #82a8b8;
     text-align: center;
-    line-height: 1.5;
-}
-
-.photo img {
-    max-width: 200px;
-    height: auto;
-    border-radius: 50px;
-}
-
-/* Pied de page */
-footer {
-    background-color: #333;
-    text-align: center;
-    padding: 15px;
-}
-
-footer a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
 }
