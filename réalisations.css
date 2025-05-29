@@ -49,12 +49,11 @@ h3{
     width: 200px;
     margin-left: auto;
     margin-right: auto;
-    padding: auto;
-    background-color: #82a8b8;
+    padding: 20px;
+    background-color: #82a8b861;
     text-align: center;
     border-radius: 50px;
 }
-
 .langage_Python{
     justify-content: center;
     align-items: center;
@@ -62,4 +61,35 @@ h3{
     margin-right: auto;
     left: auto;
     right: auto;
+}
+footer a{
+    text-decoration: none;
+    color:inherit;
+    background: none;
+}
+footer p{
+    width: 800px;
+    padding: 10px;
+    border-radius: 55px;
+    background-color: rgba(0, 100, 100, 0.21);
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+footer{
+    overflow-x: hidden;
+}
+@media (max-width:800px) {
+    .container{
+        width: 100%;
+        margin: auto;
+    }
+        footer p {
+        width: 90%;
+    }
+    p{
+        margin-left: 15px;
+    }
 }
